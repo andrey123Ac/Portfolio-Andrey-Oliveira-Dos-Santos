@@ -83,7 +83,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100%;
+   
 }
 
 .img43 {
@@ -157,7 +157,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 2500px;
         border: transparent;
     }
 
