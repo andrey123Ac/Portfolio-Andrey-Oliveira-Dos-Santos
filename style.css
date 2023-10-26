@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    height: 120vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.displayFlex{
+    display: flex;
+}
+
+.selecaoHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    height: 100%;
+    width:120px;
+    color: white;
+    border: 1px white solid;
+    border-top: none;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.selecaoPrimaria{
+    display: flex;
+    flex-direction: column;
+width: 100%;
+}
+
+.selecaoCima{
+    
+    height: 100px;
+   width: 100%;
+    background-color: black;
+    border: 1px white solid;
+    border-top: none;
+}
+
+.botaoContato{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border: 1px white solid;
+    border-top: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.selecaoDoMeio{
+    background-color: black;
+    height: 750px;
+    width: 50%;
+    border: 1px white solid;
+    border-top: none;
+}
