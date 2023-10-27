@@ -33,7 +33,7 @@ body {
 .imagem {
     display: flex;
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 main {
@@ -46,6 +46,24 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.selecaomemu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.memuConteudo{
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline ;
+    text-transform: uppercase;
+    color: black;
+    display: flex;
+    margin-bottom: 50px;
 }
 
 .selecaoContato {
@@ -70,6 +88,10 @@ main {
     font-family: 'Public Sans', sans-serif;
 }
 
+
+menu{
+    display: none ;
+}
 
 .selecaoNomeELogo {
     display: flex;
@@ -107,8 +129,10 @@ main {
     font-weight: 700;
     cursor: pointer;
     border: 1px solid black;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
 }
+
+
 
 .selecaoNomeELogo {
     display: flex;
@@ -148,6 +172,7 @@ main {
 .selecaoCoteudo {
     margin-left: 100px;
     text-align: left;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .selecaoDoMeioDireito {
@@ -331,4 +356,13 @@ main {
         width: 250px;
         height: 250px;
     }
+}
+
+@media (max-width: 1157px) {
+
+    .titulo{
+        font-size: 40px;
+    }
+
+
 }
