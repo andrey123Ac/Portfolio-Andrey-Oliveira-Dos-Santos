@@ -1,68 +1,255 @@
-*{
+* {
     padding: 0;
     margin: 0;
 
 }
 
-body{
+body {
     height: 120vh;
     width: 100%;
     box-sizing: border-box;
     display: flex;
 }
 
-.displayFlex{
+.displayFlex {
     display: flex;
+    align-items: center;
 }
 
-.selecaoHeader{
+.selecaoHeader {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    height: 100%;
+    width: 110px;
+    color: black;
+    border: 1px black solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+.imagem {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.selecaoPrimaria {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.selecaoContato {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.selecaoBaixo {
+
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    border-left: 1.6px black solid;
+    border-top: 1.6px black solid;
+    border-left: none;
+
+
+}
+
+.textoNome {
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+
+.selecaoNomeELogo{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:black;
-    height: 100%;
-    width:120px;
-    color: white;
-    border: 1px white solid;
-    border-top: none;
+    gap: 20px;
 }
 
-main{
-    height: 100%;
+.selecaoCima {
+
+    height: 80px;
     width: 100%;
-    background-color: black;
-}
-
-.selecaoPrimaria{
-    display: flex;
-    flex-direction: column;
-width: 100%;
-}
-
-.selecaoCima{
-    
-    height: 100px;
-   width: 100%;
-    background-color: black;
-    border: 1px white solid;
+    background-color: white;
+    border-left: 1.6px black solid;
+    border-bottom: 1px black solid;
     border-top: none;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 50px;
+
+
+
 }
 
-.botaoContato{
-    height: 100px;
+.selecaoPrimariaMeio {
+    display: flex;
+    height: 100%;
+}
+
+.botaoContato {
+    height: 80px;
     width: 200px;
     background-color: red;
-    border: 1px white solid;
-    border-top: none;
     color: white;
+    text-transform: uppercase;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid red;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.selecaoDoMeio{
-    background-color: black;
-    height: 750px;
+.selecaoNomeELogo {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.selecaoDoMeio {
+
+    background-color: white;
     width: 50%;
-    border: 1px white solid;
+    border: 1px black solid;
     border-top: none;
+    border-left: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titulo{
+    font-size: 70px;
+    
+}
+
+.TextoSobreMim{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+}
+
+.classSpan{
+    text-shadow: 2px 2px 10px black;
+    color: white;
+}
+
+.selecaoCoteudo{
+    margin-left: 100px;
+    text-align: left;
+}
+
+.selecaoDoMeioDireito {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    width: 50%;
+    border: 1px black solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+
+
+
+}
+
+
+.avatar{
+    border-radius: 100%;
+}
+@media (max-width: 500px){
+
+    .selecaoPrimariaMeio{
+        display: flex;
+        flex-direction: column;
+    };
+
+    .TextoSobreMim{
+        margin-top: 20px;
+        font-size: 5px;
+       
+       
+    }
+    .selecaoDoMeioDireito{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 1px solid black;
+    }
+
+
+    
+
+    .selecaoDoMeio{
+        width: 100%;
+        display: flex;
+        border-right: none;
+    }
+
+    .titulo{
+        font-size: 20px;
+        position: relative;
+        left: -30px;
+    }
+
+    .selecaoCoteudo{
+        margin-left: 50px ;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .selecaoContato{
+        margin: 15px;
+    }
+
+    .selecaoNomeELogo{
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
+    .selecaoCima{
+        padding-left: 10px ;
+    }
+
+    body{
+        height: 1500px;
+    }
+
+
+    .avatar{
+
+      
+        margin-top: 100px;
+    width: 250px;
+     height: 250px;
+    }
 }
