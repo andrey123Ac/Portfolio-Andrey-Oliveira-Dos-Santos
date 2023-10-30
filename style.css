@@ -305,9 +305,7 @@ menu{
     }
 
     .selecaoDoMeioDireito {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 40%;
         width: 100%;
         border-top: 1px solid black;
     }
