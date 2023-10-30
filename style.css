@@ -48,7 +48,7 @@ main {
     width: 100%;
 }
 
-.selecaomemu{
+.selecaomemu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +56,10 @@ main {
     gap: 30px;
 }
 
-.memuConteudo{
+.memuConteudo {
     font-size: 13px;
     font-family: 'Ubuntu', sans-serif;
-    text-decoration: underline ;
+    text-decoration: underline;
     text-transform: uppercase;
     color: black;
     display: flex;
@@ -89,8 +89,8 @@ main {
 }
 
 
-menu{
-    display: none ;
+menu {
+    display: none;
 }
 
 .selecaoNomeELogo {
@@ -129,7 +129,7 @@ menu{
     font-weight: 700;
     cursor: pointer;
     border: 1px solid black;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -358,9 +358,18 @@ menu{
 
 @media (max-width: 1157px) {
 
-    .titulo{
+    .titulo {
         font-size: 40px;
     }
 
+
+}
+
+@media (max-width: 400px) {
+
+
+    .memuConteudo {
+        font-size: 10px;
+    }
 
 }
