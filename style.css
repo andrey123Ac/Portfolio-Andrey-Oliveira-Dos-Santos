@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
-
 .div1 {
     position: fixed;
     width: 100%;
@@ -21,38 +18,31 @@
     z-index: 999;
     transition: all 0.3s ease;
 }
-
 .div1.sticky {
     padding: 15px 0;
     background-color: #00804b;
 }
-
 .div1 .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .div1 .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 500;
 }
-
 .div1 .logo a span {
     color: #00804b;
 }
-
 .div1.sticky .logo a span {
     color: #fff;
     transition: all 0.3s ease;
 }
-
 .div1 .menu li {
     list-style: none;
     display: inline-block;
 }
-
 .div1 .menu li a {
     color: #fff;
     font-size: 18px;
@@ -60,11 +50,9 @@
     margin-left: 25px;
     transition: color 0.3 ease;
 }
-
 .div1.sticky .menu li a:hover {
     color: #fff;
 }
-
 .div1 .menu li a:hover {
     color: #00804b;
 }
@@ -79,26 +67,21 @@
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
 }
-
 .home .max-width {
     margin: auto 0 auto 40px;
 }
-
 .home .home-content .text-1 {
     font-size: 27px;
 }
-
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
 }
-
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
-
 .home .home-content a {
     display: inline-block;
     background-color: #00804b;
@@ -120,9 +103,6 @@
     font-weight: 500;
 }
 
-
-
-
 /*menu Mobile*/
 
 .menu-bnt {
@@ -137,7 +117,6 @@
 section {
     padding: 100px 0;
 }
-
 section .title {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -147,7 +126,6 @@ section .title {
     padding-bottom: 20px;
     position: relative;
 }
-
 section .title::before {
     content: "";
     position: absolute;
@@ -158,7 +136,6 @@ section .title::before {
     background: #111;
     transform: translateX(-50%);
 }
-
 section .title::after {
     position: absolute;
     bottom: -12px;
@@ -176,35 +153,26 @@ section .title::after {
 .services {
     font-family: 'Roboto', sans-serif;
 }
-
-
-
 .about .title::after {
     content: "Quem eu sou";
 }
-
 .about .about-content .left {
     width: 45%;
 }
-
 .about .about-content .right {
     width: 55%;
 }
-
 .about .about-content .right .text {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-
 .about .about-content .right .text span {
     color: #00804b;
 }
-
 .about .about-content .right p {
     text-align: justify;
 }
-
 .about .about-content .right a {
     display: inline-block;
     background-color: #00804b;
@@ -217,19 +185,16 @@ section .title::after {
     border: 2px solid #00804b;
     transition: all 0.3s ease;
 }
-
 .about .about-content .right a:hover {
     color: #00804b;
     background: none;
 }
-
 .about .about-content .left img {
     width: 400px;
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
-
 .about .about-content,
 .services .serv-content {
     display: flex;
@@ -244,17 +209,14 @@ section .title::after {
     background: #111;
     color: #fff;
 }
-
 .services .title::before {
     background: #fff;
 
 }
-
 .services .title:after {
     background: #111;
     content: "O que ofereço";
 }
-
 .services .serv-content .card {
     width: calc(30% - 20px);
     background: #222;
@@ -264,35 +226,27 @@ section .title::after {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 .services .serv-content .card:hover {
     background: #00804b;
 }
-
 .services .serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
 .i {
     margin-top: 20px;
 }
-
 .services .serv-content .card ion-icon {
-
     font-size: 50px;
     color: #00804b;
 }
-
 .services .serv-content .card:hover ion-icon {
     color: #fff;
 }
-
 .services .serv-content .card .box {
     transition: all 0.3s ease;
 }
-
 .services .serv-content .card:hover .box {
     transform: scale(1.05);
 }
@@ -303,7 +257,6 @@ section .title::after {
     display: flex;
     z-index: 999;
 }
-
 .animacaoMenu {
     position: fixed;
     width: 100%;
@@ -314,19 +267,13 @@ section .title::after {
     padding-top: 80px;
     text-align: center;
     transition: all 0.3s ease;
-
 }
-
 .apagar {
     display: none;
 }
-
-
 .hide2 {
     display: none;
-
 }
-
 .centro {
     display: flex;
     justify-content: center;
@@ -334,15 +281,12 @@ section .title::after {
     flex-direction: column;
     text-align: center;
 }
-
 .voltar {
-
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     transition: color 0.3 ease;
     margin-top: 160px;
-
 }
 
 .hide {
@@ -350,31 +294,24 @@ section .title::after {
 }
 
 @media (max-width: 1300px) {
-
     .div1 .max-width {
         margin-right: 0;
     }
-
 }
 
 @media (max-width: 1104px) {
-
-
     .about .about-content .left img {
         width: 350px;
         height: 350px;
 
     }
-
 }
 
 
 @media (max-width: 991px) {
-
     .div1 .max-width {
         padding: 0 50px;
     }
-
 }
 
 @media (max-width: 974px) {
@@ -382,105 +319,77 @@ section .title::after {
         max-width: 800px;
         padding: 0 50px;
     }
-
     .hide2 {
         display: block;
     }
-
     #selecao1 {
         display: none;
     }
-
-
     .div1 .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-
     .home .home-content .text-2 {
         font-size: 70px;
     }
-
     .home .home-content .text-3 {
         font-size: 35px;
     }
-
     .home .home-content a {
         font-size: 23px;
         padding: 10px 30px;
     }
-
     .about .about-content .column {
         width: 50%;
     }
-
     .about .about-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
-
     }
-
-    ;
-
     .about .about-content .right {
         flex: 100%;
     }
-
     .about-content {
         display: flex;
         flex-direction: column;
     }
-
     .about .about-content .column {
         width: 100%;
     }
-
-
     .services .serv-content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .services .serv-content .card {
         width: calc(50% - 10px);
         margin: 20px;
-
     }
-
     .i {
         margin: 0;
     }
-
 }
-
 @media (max-width: 690px) {
     .home .home-content .text-2 {
         font-size: 60px;
     }
-
     .home .home-content .text-3 {
         font-size: 32px;
     }
-
     .services .serv-content{
         gap: 10px;
     }
-
     .services .serv-content .card {
         margin: 0;
         width:100%;
-
     }
 }
-
 @media (max-width: 500px) {
     .home .home-content .text-2 {
         font-size: 50px;
     }
-
     .home .home-content .text-3 {
         font-size: 27px;
     }
@@ -490,120 +399,83 @@ section .title::after {
     .services .title:after {
         font-size: 14px;
     }
-
     .about .title::after {
         font-size: 14px;
     }
-
     .about .about-content .left img {
         width: 300px;
         height: 300px;
-
     }
 }
 
 @media (max-width: 357px){
     .services .serv-content .card .text {
         font-size: 20px;
-     
     }
-
     .services .serv-content .card p{
         font-size: 14px;
-      
     }
-
     .about .about-content .left img {
         width: 280px;
         height: 280px;
-
     }
-
 }
 
 @media (max-width: 333px){
-
     .home .home-content .text-2 {
         font-size: 40px;
     }
-
     .home .home-content .text-3 {
         font-size: 15px;
     }
-
     .home .home-content a{
         font-size: 15px;
         padding: 5px 15px;
     }
-
     .about .about-content .left img {
         width: 230px;
         height: 230px;
-
     }
-
     .services .title:after {
         font-size: 12px;
     }
-
     .about .title::after {
         font-size: 12px;
     }
-
     .services .serv-content .card .text {
         font-size: 17px;
      
     }
-
     .services .serv-content .card p{
         font-size: 10px;
-      
     }
-
-
-
 }
 
 @media (max-width: 290px){
-
     .home .home-content .text-2 {
         font-size: 20px;
     }
-
     .home .home-content .text-3 {
         font-size: 6px;
     }
-
     .home .home-content a{
         font-size: 6px;
         padding: 3px 10px;
     }
-
     .about .about-content .left img {
         width: 180px;
         height: 180px;
-
     }
-
     .services .title:after {
         font-size: 6px;
     }
-
     .about .title::after {
         font-size: 6px;
     }
-
     .services .serv-content .card .text {
         font-size: 6px;
-     
     }
-
     .services .serv-content .card p{
         font-size: 5px;
-      
     }
-
-
-
 }
-
